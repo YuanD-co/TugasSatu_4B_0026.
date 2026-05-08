@@ -49,7 +49,13 @@ btnTambah.addEventListener("click", function(){
         );
         console.log(editTugas);
         alert("Silakan edit tugas");
-        
+
+        if(editTugas !== null){
+            span.innerHTML = editTugas;
+            alert("Tugas berhasil diubah");
+        }
+    });
+
     inputValue.value ="";
     inputValue.focus();
 });
