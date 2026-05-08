@@ -13,6 +13,13 @@ btnTambah.addEventListener("click", function(){
         return;
     }
 
+    if(inputTanggal.value === ""){
+
+    alert("Tanggal tugas wajib diisi");
+
+    return;
+}
+
     const listbaru = document.createElement("li");
     const span = document.createElement("span");
     span.innerHTML = inputValue.value;
