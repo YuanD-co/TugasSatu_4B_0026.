@@ -30,7 +30,7 @@ h3{
 }
 
 #btnTambahTodo{
-    background-color: rgba(255, 0, 221, 0.597);
+    background-color: green;
     border: none;
     color: white;
 }
