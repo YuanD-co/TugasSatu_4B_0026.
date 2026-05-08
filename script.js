@@ -44,6 +44,12 @@ btnTambah.addEventListener("click", function(){
         alert("Mode edit aktif");
         console.log("Tombol edit ditekan");
 
+        const editTugas = prompt(
+            "Masukkan tugas baru"
+        );
+        console.log(editTugas);
+        alert("Silakan edit tugas");
+        
     inputValue.value ="";
     inputValue.focus();
 });
