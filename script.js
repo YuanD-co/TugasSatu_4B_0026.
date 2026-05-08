@@ -39,7 +39,11 @@ btnTambah.addEventListener("click", function(){
     btnEdit.innerText = "Edit";
     btnEdit.style.backgroundColor = "yellow";
     btnEdit.style.color = "black";
-    
+
+    btnEdit.addEventListener("click", function(){
+        alert("Mode edit aktif");
+        console.log("Tombol edit ditekan");
+
     inputValue.value ="";
     inputValue.focus();
 });
