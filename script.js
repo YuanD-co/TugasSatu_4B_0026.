@@ -35,6 +35,11 @@ btnTambah.addEventListener("click", function(){
     const garis = document.createElement("hr");
     listbaru.appendChild(garis);
 
+    const btnEdit = document.createElement("button");
+    btnEdit.innerText = "Edit";
+    btnEdit.style.backgroundColor = "yellow";
+    btnEdit.style.color = "black";
+    
     inputValue.value ="";
     inputValue.focus();
 });
